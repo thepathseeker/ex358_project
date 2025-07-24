@@ -1,0 +1,8 @@
+---
+ansible-navigator:
+  execution-environment:
+    enabled: true
+    pull:
+      policy: never
+  playbook-artifact:
+    enable: false

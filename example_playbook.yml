@@ -1,0 +1,6 @@
+---
+- name: Test Playbook
+  hosts: managed
+  tasks:
+    - name: Ping localhost
+      ansible.builtin.ping:
